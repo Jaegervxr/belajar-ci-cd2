@@ -17,5 +17,5 @@ jobs:
         run : test -f index.html
 
       - name: check HTML tag
-        run : grep -qi '<html>' index.html
+        run : grep -qi '<123>' index.html
         
